@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:gravity="right">
+
+    <com.taro.imdemo.view.GifTextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoLink="phone|email|map|web"
+        android:gravity="center_vertical"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:minHeight="40dp"
+        android:maxWidth="240dp"
+        android:text="hahha"
+        android:textSize="16sp"
+        android:textColor="#353535"
+        android:textColorLink="#2972ac"/>
+
+    <ImageView
+        android:id="@+id/img_header"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@mipmap/picture"
+        android:layout_marginLeft="10dp"/>
+
+</LinearLayout>

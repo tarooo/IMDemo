@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--//设置圆角度
+    app:radius="5dp"
+
+    //设置左右为半圆， 不用计算radius
+    app:round="true"
+
+    //设置背景切换动画时长
+    app:animationDuration="200"
+
+    //设置dash
+    app:strokeDashGap="2dp"
+
+    //设置dash width
+    app:strokeDashWidth="5dp"
+
+    //设置正常显示的边框宽度
+    app:normalStrokeWidth="2dp"
+
+    //设置按下时显示的边框宽度
+    app:pressedStrokeWidth="2dp"
+
+    //设置不可用时（enable = false）显示的边框宽度
+    app:unableStrokeWidth="2dp"
+
+    //设置正常显示的边框颜色
+    app:normalStrokeColor="@android:color/white"
+
+    //设置按下时显示的边框颜色
+    app:pressedStrokeColor="@android:color/white"
+
+    //设置不可用时（enable = false）显示的边框颜色
+    app:unableStrokeColor="@android:color/white"
+
+    //设置正常显示的文字颜色
+    app:normalTextColor="@android:color/white"
+
+    //设置按下状态显示的文字颜色
+    app:pressedTextColor="@android:color/white"
+
+    //设置不可用时（enable = false）显示的文字颜色
+    app:unableTextColor="@android:color/white"
+
+    //设置正常显示的背景颜色
+    app:normalBackgroundColor="@color/colorPrimaryDark"
+
+    //设置按下状态显示的背景颜色
+    app:pressedBackgroundColor="@color/colorPrimaryDark"
+
+    //设置不可用时（enable = false）背景颜色
+    app:unableBackgroundColor="@color/colorPrimaryDark"-->
+    <declare-styleable name="StateButton">
+
+        <!--text color-->
+        <attr name="normalTextColor" format="color|reference"/>
+        <attr name="pressedTextColor" format="color|reference"/>
+        <attr name="unableTextColor" format="color|reference"/>
+
+        <!--stroke width and color, dash width, dash gap-->
+        <attr name="strokeDashWidth" format="dimension|reference"/>
+        <attr name="strokeDashGap" format="dimension|reference"/>
+        <attr name="normalStrokeWidth" format="dimension|reference"/>
+        <attr name="pressedStrokeWidth" format="dimension|reference"/>
+        <attr name="unableStrokeWidth" format="dimension|reference"/>
+        <attr name="normalStrokeColor" format="color|reference"/>
+        <attr name="pressedStrokeColor" format="color|reference"/>
+        <attr name="unableStrokeColor" format="color|reference"/>
+
+        <!--background color-->
+        <attr name="normalBackgroundColor" format="color|reference"/>
+        <attr name="pressedBackgroundColor" format="color|reference"/>
+        <attr name="unableBackgroundColor" format="color|reference"/>
+
+        <!--background radius-->
+        <attr name="radius" format="dimension|reference"/>
+        <attr name="round" format="boolean|reference"/>
+
+        <!--animation duration-->
+        <attr name="animationDuration" format="integer|reference"/>
+
+    </declare-styleable>
+
+</resources>
